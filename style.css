@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: blueviolet;
+}
+.images{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    border: 2px solid white;
+    width: fit-content;
+    border-radius: 10px;
+}
+.images img{
+    width: 60px;
+    height: 300px;
+    border: 1px solid white;
+    transition: all ease 1s;
+}
+.images img:hover{
+    width: 200px;
+}
